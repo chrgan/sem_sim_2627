@@ -146,8 +146,6 @@ out-group homogeneity: Out-group wird als homogen, in-group als heterogen.
 - Verwendung eines Zellularautomaten-Modells: SLEUTH (*Slope, Land-use, Exclusion, Urban extent, Transportation, and Hillshade*)
 - Verschiedene *Zoning*-Szenarien berücksichtigt
 
-Resume this session with: claude --resume b5828441-6331-411c-bb9d-42b4a6d98a69
-
 ## Literatur
 
 ::: {#refs}

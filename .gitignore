@@ -10,6 +10,10 @@
 /.quarto/
 **/.quarto/
 
+# Claude Code local settings (not meant for the published repo)
+.claude/
+**/.claude/
+
 # temp / editor
 *.tmp
 *~
