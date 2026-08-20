@@ -1,0 +1,154 @@
+---
+title: "Simulation in den Sozialwissenschaften"
+subtitle: "Sitzung 1: Einführung und Organisatorisches"
+author: Christian Ganser
+date: 2026-10-12
+date-format: "DD.MM.YYYY"
+lang: de
+slide-level: 2
+format:
+  beamer:
+    aspectratio: 169
+    header-includes:
+      - |
+        \usepackage{tikz}
+        \addtobeamertemplate{title page}{\vspace{1.5cm}}{}
+        \addtobeamertemplate{title page}{}{
+          \begin{tikzpicture}[remember picture, overlay]
+            \node[anchor=north east, xshift=-0.5cm, yshift=-0.5cm] at (current page.north east) {\includegraphics[width=2.5cm]{LMU_Logo_RGB_InvertiertSchwarz.png}};
+          \end{tikzpicture}
+        }
+        \setbeamertemplate{footline}[frame number]
+  revealjs:
+    width: 1600
+    height: 900
+    slide-number: true
+title-slide-attributes:
+  data-background-image: "LMU_Logo_RGB_InvertiertSchwarz.png"
+  data-background-size: "150px"
+  data-background-position: "top 20px right 20px"
+  data-background-repeat: "no-repeat"
+bibliography: references.json
+---
+
+# Ein Beispiel zum Einstieg
+
+## Gruppenbildung auf Partys
+
+::::: columns
+::: {.column width="60%"}
+- Öffnen Sie NetLogo Web: www.netlogoweb.org
+- Öffnen Sie das *Sample Model „Party“* aus der *Models Library* und lesen Sie die Beschreibung.
+- Simulieren Sie eine Party mit 30 Gästen, die sich in 5 Gruppen aufteilen.
+- Nach wie vielen Runden stellt sich ein stabiler Zustand ein, wenn die *tolerance* 20 oder 40% beträgt?
+- Sind Sie sicher, dass Ihre Antwort auf die vorherige Frage stimmt? Versuchen Sie es nochmal.
+:::
+
+::: {.column width="40%"}
+![Bild erstellt mit ChatGPT, 12.08.2026](partypeople.png){width="100%"}
+:::
+:::::
+
+## Merkmale von Simulationen
+
+Welche Merkmale vieler Simulationen erkennen wir im Beispiel?
+
+1.  **Agenten** mit
+2.  **veränderlichen**
+3.  **Eigenschaften**
+4.  agieren **interdependent**
+5.  in einer **definierten Umwelt**.
+
+::: {.callout-tip appearance="simple" title="Ziel des Seminars"}
+Haben alle Simulationen diese Merkmale? Welche Fragen kann man mit solchen Simulationen beantworten und welche nicht? Wie entwickelt man solche Simulationen? Diese und weitere Fragen versuchen wir im Seminar zu beantworten.
+:::
+
+# Veranstaltungsprogramm
+
+------------------------------------------------------------------------
+
+Siehe Moodle-Kurs: https://moodle.lmu.de/course/view.php?id=47662
+
+![](qr_moodle.png){width="30%"}
+
+# Ein Überblick über Simulationsansätze
+
+## Mögliche Kategorisierungen: Inhalt oder Methode
+
+::::: columns
+::: {.column width="50%"}
+**Inhaltliche Kategorisierung** [vgl. @garson2009]
+
+- Netzwerkmodelle
+- Räumliche Modelle
+- Agenten-Modelle
+- Systemdynamik-Modelle
+:::
+
+::: {.column width="50%"}
+**Methodische Kategorisierung** [vgl. @saam2015]
+
+- Mikrosimulationsmodelle
+- Agenten-Modelle
+- Zellularautomaten
+- Neuronale Netze
+- Zufallsnetze und Small Worlds
+:::
+:::::
+
+::: callout-note
+Keine trennscharfe Abgrenzung, gibt Hinweis auf Vielfalt der Methoden und Anwendungsbereiche.
+:::
+
+## Netzwerkmodelle
+
+**Anwendungsbeispiele**
+
+- Wie entwickeln sich Freundschaftsnetzwerke in Abhängigkeit von Eigenschaften der Akteure im Netzwerk?
+- Wovon hängen *out-group homogeneity*-Effekte ab?
+- *Small Worlds*
+
+**Welche Vorteile gegenüber empirischer Netzwerkforschung sehen Sie?**
+
+::: notes
+out-group homogeneity: Out-group wird als homogen, in-group als heterogen.
+:::
+
+## Netzwerkmodelle: @read2003
+
+**Netzwerk hat**
+
+- Architektur: Wie sind die Knoten miteinander verbunden? Hier: vollständig.
+- Lernregel: Wie werden Verbindungen verstärkt oder abgeschwächt in Abhängigkeit von Input? Hier: Variante von $\Delta w_{ij}=lr \cdot e \cdot a_j$
+- Aktivierungsfunktion: Wie verbreiten sich Aktivierungszustände durch das Netzwerk? (Hier: in Abhängigkeit von externem und internem Input.)
+
+**OHE hängt ab von**
+
+- Größenverhältnis *in-group/out-group*
+- Populationsgröße
+- Lernrate
+- Vergessensrate
+- Verstärktem Lernen durch extreme Fälle
+
+## Räumliche Modelle
+
+**Anwendungsbeispiele**
+
+- Verbreitung von Populationen
+- Landwirtschaftsmanagement
+- ...und weitere Mensch-Umwelt-Interaktionen
+
+**Was sind Vorteile solcher Simulationen?**
+
+## Räumliche Modelle: @yin2018
+
+- Wie wirkt sich die Berücksichtigung von verschiedenen Flächennutzungs-Richtlinien (*zoning*) auf die Genauigkeit der Simulation von Städtewachstum aus?
+- Verwendung eines Zellularautomaten-Modells: SLEUTH (*Slope, Land-use, Exclusion, Urban extent, Transportation, and Hillshade*)
+- Verschiedene *Zoning*-Szenarien berücksichtigt
+
+Resume this session with: claude --resume b5828441-6331-411c-bb9d-42b4a6d98a69
+
+## Literatur
+
+::: {#refs}
+:::

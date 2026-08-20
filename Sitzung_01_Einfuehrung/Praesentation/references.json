@@ -1,0 +1,145 @@
+[
+  {
+    "id": "garson2009",
+    "DOI": "10.1177/1046878108322225",
+    "author": [
+      {
+        "family": "Garson",
+        "given": "G. David"
+      }
+    ],
+    "container-title": "Simulation & Gaming",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "libraryid": "12812419",
+    "page": "267–279",
+    "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+    "title": "Computerized Simulation in the Social Sciences: A Survey and Evaluation",
+    "type": "article-journal",
+    "volume": "40"
+  },
+  {
+    "id": "saam2015",
+    "DOI": "10.1007/978-3-658-01164-2_1",
+    "ISBN": "978-3-658-01163-5 978-3-658-01164-2",
+    "URL": "https://link.springer.com/10.1007/978-3-658-01164-2_1",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Saam",
+        "given": "Nicole J."
+      }
+    ],
+    "container-title": "Handbuch Modellbildung und Simulation in den Sozialwissenschaften",
+    "container-title-short": "Einführung",
+    "editor": [
+      {
+        "family": "Braun",
+        "given": "Norman"
+      },
+      {
+        "family": "Saam",
+        "given": "Nicole J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "de",
+    "libraryid": "12812419",
+    "page": "3-14",
+    "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+    "publisher": "Springer Fachmedien Wiesbaden",
+    "publisher-place": "Wiesbaden",
+    "source": "DOI.org (Crossref)",
+    "title": "Einführung: Modellbildung und Simulation",
+    "title-short": "Einführung",
+    "type": "chapter"
+  },
+  {
+    "id": "read2003",
+    "author": [
+      {
+        "family": "Read",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Urada",
+        "given": "Darren I."
+      }
+    ],
+    "container-title": "Personality and Social Psychology Review",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "libraryid": "12812419",
+    "page": "146–169",
+    "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+    "title": "A Neural Network Simulation of the Outgroup Homogeneity Effect",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "id": "yin2018",
+    "DOI": "10.1016/j.cities.2018.04.010",
+    "author": [
+      {
+        "family": "Yin",
+        "given": "Haiwei"
+      },
+      {
+        "family": "Kong",
+        "given": "Fanhua"
+      },
+      {
+        "family": "Yang",
+        "given": "Xiaojun"
+      },
+      {
+        "family": "James",
+        "given": "Philip"
+      },
+      {
+        "family": "Dronova",
+        "given": "Iryna"
+      }
+    ],
+    "container-title": "Cities",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "libraryid": "12812419",
+    "page": "214–229",
+    "providerkey": "2509FBBE-5BB0-44C4-B119-6083A81ED673",
+    "title": "Exploring Zoning Scenario Impacts upon Urban Growth Simulations Using a Dynamic Spatial Model",
+    "type": "article-journal",
+    "volume": "81"
+  }
+]

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulation in den Sozialwissenschaften</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #00457c;
+    --border: #e2e2e2;
+    --card-bg: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #e8e8e8;
+      --muted: #a0a0a0;
+      --accent: #6ea8e0;
+      --border: #2b2e33;
+      --card-bg: #1c1f24;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  header {
+    padding: 3rem 1.5rem 2rem;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 0.4rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin: 2rem 0 1rem;
+  }
+  ul.sessions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .session {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    background: var(--card-bg);
+    text-decoration: none;
+    color: inherit;
+  }
+  .session:hover { border-color: var(--accent); }
+  .session .num {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .session .title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 0.15rem;
+  }
+  .session .links {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .session .links a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  .session .links a:hover { text-decoration: underline; }
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Simulation in den Sozialwissenschaften</h1>
+  <p class="subtitle">Seminarunterlagen &middot; Christian Ganser &middot; WiSe 2026/27</p>
+</header>
+<main>
+  <h2>Sitzungen</h2>
+  <ul class="sessions">
+    <li>
+      <a class="session" href="sitzung-01-einfuehrung/">
+        <div class="num">Sitzung 1</div>
+        <div class="title">Einführung und Organisatorisches</div>
+        <div class="links">
+          <a href="sitzung-01-einfuehrung/">Folien (HTML)</a>
+          <a href="sitzung-01-einfuehrung/Sitzung_01_Einfuehrung.pdf">PDF</a>
+        </div>
+      </a>
+    </li>
+  </ul>
+</main>
+<footer>
+  Weitere Sitzungen folgen im Laufe des Semesters.
+</footer>
+</body>
+</html>

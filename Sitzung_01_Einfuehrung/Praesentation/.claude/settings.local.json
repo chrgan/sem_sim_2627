@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(pdfinfo Sitzung_01_Einfuehrung.pdf)",
+      "Bash(pdftotext -layout Sitzung_01_Einfuehrung.pdf -)",
+      "Bash(quarto render *)",
+      "Bash(python3 *)"
+    ]
+  }
+}
